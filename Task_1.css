@@ -1,0 +1,62 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color:#fff;
+}
+
+header { background-color: #989a9c; color: #fff; padding: 20px; text-align: center; display: flex; justify-content: space-between; align-items: center;
+}
+
+.logo { display: flex; align-items: center; padding-left: 20px;
+}
+
+.logo img { width: 64px; height: 64px; margin-right: 10px;
+}
+
+.logo h1 { font-size: 36px; font-weight: bold; margin: 0; color: #fff;
+}
+
+nav { background-color: #989a9c;
+}
+
+nav ul { list-style: none; padding: 0; margin: 0; display: flex; justify-content: flex-end; align-items: center;
+}
+
+nav ul li { display: inline-block; margin-right: 20px;
+}
+
+nav ul li:last-child { margin-right: 0;
+}
+
+nav ul li a { text-decoration: none; color: #fff; font-size: 18px; font-weight: bold; text-transform: uppercase; padding: 10px 20px; border-radius: 5px; transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover { background-color:#989a9c;
+}
+
+.container { background-color:#bfbebb; max-width: 800px; margin: 40px auto; padding: 10px 20px;
+}
+
+.blog-posts { background-color:#bfbebb; display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 10px;
+}
+
+.blog-post { background-color: #fff; border-radius: 5px; overflow: hidden; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease; padding: 10px;
+}
+
+.blog-post:hover { transform: translateY(-5px); box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img { width: 100%; height: auto;
+}
+
+.card-body { padding: 20px 10px;
+}
+
+.card-body h3 { font-size: 18px; margin: 10px 0; color: #333;
+}
+
+.card-body small { font-size: 14px; color: #888;
+}
+
+.card-body p { font-size: 16px; margin: 10px 0; color: #555;
+}
+
+a { text-decoration: none; color: #333;
+}
